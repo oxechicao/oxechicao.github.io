@@ -39,10 +39,10 @@
           p Nature Rainbow (Atom)
       .content-body(v-if="about")
           p I'm a brazilian developer that love what I do.
-          p A master degree student on
+          p A master degree student at
             a(target="_blank", href="https://uece.br/macc")
               b
-                i  UECE
+                i  UECE (Universidade Estadual do Ceará, Brazil)
             | . I'm studying about serverless, microservices, self-adaptive, distributed systems, resource allocation, etc.
           p Currently I working as Fullstack Developer, with Vuejs and a little bit of Laravel.
 

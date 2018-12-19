@@ -1,4 +1,4 @@
-# Francisco Thiago (thiichico)
+# Francisco Thiago (fthiagogv)
 
 Mestrando em Ciência da Computação na Universidade Estadual do Ceará (UECE).
 
@@ -10,6 +10,6 @@ Atualmente trabalhando como desenvolvedor utilizando: Php+Laravel, Javascript+Vu
 
 Master degree student at Universidade Estadual do Ceará (UECE), Brazil.
 
-I'm a Barchelor of Computer Science.
+I have a barchelor degree in Computer Science.
 
 Currently, I'm working as Fullstack Developer with Php (Laravel), Javascript (Vuejs), Couchdb, Mysql and Mongodb.

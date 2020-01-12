@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Curriculum - @fthiagogv</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono"
-        rel="stylesheet">
+  <title>Curriculum - @chicaothiago</title>
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto+Mono"
+    rel="stylesheet"
+  >
   <script type="application/ld+json">
     {
       "@context": "http://schema.org/",
@@ -24,7 +26,7 @@
   <style>
     @page {
       size: A4;
-      margin: 1cm;
+      margin: 0.5cm;
     }
 
     @font-face {
@@ -36,6 +38,7 @@
       margin-left: 0px;
       margin-top: 0px;
       font-family: 'Hack', 'Roboto Monto', monospace;
+      font-size: 10pt;
     }
 
     body {
@@ -50,20 +53,20 @@
     }
 
     h1, h2, h3 {
-      color: hsl(161, 31%, 59%);
+      color: hsl(159, 26%, 45%);
       text-transform: uppercase;
     }
 
     h1 {
-      font-size: 18pt;
-    }
-
-    h2 {
       font-size: 14pt;
     }
 
-    h3 {
+    h2 {
       font-size: 12pt;
+    }
+
+    h3 {
+      font-size: 10pt;
     }
 
     p, .personal-data {
@@ -72,21 +75,22 @@
 
     .personal-info {
       text-align: right;
-      width: 8cm;
+      width: 4cm;
       height: 100vh;
+      font-size: 8pt;
     }
 
     .personal-info-content {
-      margin-top: 2cm;
+      /*margin-top: 2cm;*/
     }
 
     .personal-info-content, .personal-info-content a {
-      color: hsl(243, 36%, 59%);
+      color: hsl(243, 28%, 49%);
     }
 
     .personal-data {
-      margin-left: 1.5cm;
-      margin-top: 0.5cm;
+      margin-left: 0.5cm;
+      /*margin-top: 0.5cm;*/
       text-align: justify-all;
     }
 
@@ -97,7 +101,7 @@
     .data-content {
       text-align: justify;
       width: 100%;
-      padding: 10px;
+      /*padding: 10px;*/
     }
 
     .content-end {
@@ -111,22 +115,38 @@
     }
 
     .myname {
-      font-size: 14pt;
+      font-size: 12pt;
       font-weight: bolder;
       text-transform: uppercase;
+    }
+
+    .personal-info-det, .personal-info-det a {
+      font-size: 8pt;
     }
   </style>
 </head>
 <body>
 <div class="personal-info">
   <div class="personal-info-content">
-    <p class="myname">Francisco Thiago<br>Gomes Vieira </p>
-    <p>fthiagogv@gmail.com</p>
-    <p>Telegram: @fthiagogv</p>
+    <p class="myname">Francisco<br>Thiago<br>Gomes<br>Vieira </p>
+    <p class="personal-info-det">
+      fthiagogv@gmail.com <br>
+      (85) 9 9906-8698
     </p>
-    <p>29 anos</p>
-    <p>Fortaleza/CE</p>
-    <p><a href="https://fthiagogv.github.io" target="_blank">https://fthiagogv.github.io</a>
+    <p class="personal-info-det">
+      29 anos <br>
+      Fortaleza/CE
+    </p>
+    <p class="personal-info-det">
+      twitter, linkedin, telegram: <br>
+      @chicaothiago
+    </p>
+    <p class="personal-info-det">
+      <a
+        href="https://chicaothiago.github.io"
+        target="_blank"
+      >chicaothiago.github.io</a>
+    </p>
   </div>
 </div>
 
@@ -134,8 +154,8 @@
   <div class="data-content">
     <h2>Formação</h2>
     <p><strong>Graduado</strong> em Ciência da Computação pela Universidade
-      Estadual do Ceará (UECE)</p>
-    <p><strong>Mestrando</strong> em Ciência da Computação pela Universidade
+      Estadual do Ceará (UECE) <br>
+      <strong>Mestrando</strong> em Ciência da Computação pela Universidade
       Estadual do Ceará (UECE)</p>
   </div>
 
@@ -143,33 +163,36 @@
     <h2>Experiência Profissional</h2>
     <ul>
       <li>
-        <strong>Desenvolvedor Web</strong>, 3E Engenharia em Eficiência
+        <p>
+        <strong>Desenvolvedor Web II</strong>, 3E Engenharia em Eficiência
         Energética:
         <br>
         <small>Período: 04/2016 até o momento</small>
-        <br>
-        Densenvolvendo sistemas e APIs em Laravel, SPA com Vue.js e Vuex, utilizando Couchdb, Mongodb, Mysql como banco de dados.
-        Utilizando Docker no dia a dia de desenvolvimento e implanatando em produção em alguns projetos.
-      </li>
-      <li>
-        <strong>Estágio Desenvolvedor&Pesquisador Openstack/Hitachi</strong>,
-        LSBD (UFC):
-        <br>
-        <small>Período: 08/2014 até 03/2016</small>
-        <br>
-        Efetuando reviões de pull requests para projetos como Kolla, Swift e documentações dos mesmos.
+        </p>
+        Trabalho como desenvolvedor Full Stack, atuando desde o momento do planejamento do projeto até a implantação do produto final em
+        produção, seja ele na nuvem ou em servidores físicos. <br>
+        Desenvolvo sistemas monolíticos e APIs em Laravel desde a versão 4.x até a 6.x, a maioria sendo single tenant,
+        mas com alguns projetos multi-tentant.
+        Construo aplicações SPA utilizando-se de Vue.js, Vuex e Quasar Framework para UI Components. Trabalho também com Bootstrap,
+        ElementUI e Vuetify.
+        Além de manter aplicativos em Ionic e Angular.
+        Utilizo diversos bancos de dados nos projetos como MySQL, Mongodb, Couchdb.
+        Uso Docker no dia a dia de desenvolvimento, principalmente para gerenciamento dos diversos bancos de dados.
+        Em alguns projetos, Docker é utilizado para implanatação do ambiente de produção.
       </li>
     </ul>
   </div>
 
   <div class="data-content">
     <h2>Conhecimentos</h2>
-    <p><strong>Php:</strong> Laravel, Symfony, Codeigniter</p>
-    <p><strong>Javascript:</strong> Vuejs, Angular, TypeScript, Ionic, Quasar</p>
-    <p><strong>Web:</strong> HTML5, CSS, Bootstrap, Zurb Foundation</p>
-    <p><strong>Database:</strong> Couchdb, Mongodb, MariaDB, MySQL, PostgreSQL</p>
-    <p><strong>Outros:</strong> REST Api, Web Services, Docker, Kubernetes, TDD, Scrum</p>
-    <p><strong>Inglês:</strong> Intermediário / Avançado</p>
+    <p>
+      <strong>Php:</strong> Laravel, Symfony, Codeigniter<br>
+      <strong>Javascript:</strong> Vuejs, Angular, TypeScript, Ionic, Quasar<br>
+      <strong>Web:</strong> HTML5, CSS, Bootstrap, Tailwind.css<br>
+      <strong>Database:</strong> Couchdb, Mongodb, MariaDB, MySQL, PostgreSQL<br>
+      <strong>Outros:</strong> REST Api, Web Services, Docker, Kubernetes, TDD, Scrum, AWS<br>
+      <strong>Inglês:</strong> Intermediário / Avançado
+    </p>
   </div>
 
   <div class="data-content content-end">
@@ -177,19 +200,21 @@
     <p>
       Toda minha formação acadêmica foi focada em Engenharia de Software e no meu
       mestrado não é diferente. Tendo como linha de pesquisa a Engenharia de
-      Software, atualmente pesquiso sobre resiliência no fluxo de execução entre microsserviços.
+      Software, atualmente pesquiso sobre resiliência no fluxo de execução na composição de microsserviços.
     </p>
     <p>
       Minhas maiores experiências de trabalho são desenvolvendo sistemas e APIs
-      com Php (Laravel) e Javascript (Node) como backend e no frontend um mix de Php+Jquery, Php+Vuejs, 
-      além de SPAs com Vuejs+Vuex.
+      com Php (Laravel) e Javascript (Node) como backend e no frontend um mix de Php+Jquery, Php+Vuejs.
+      Além de SPAs com Vuejs+Vuex, e aplicativos com Ionic.
+      Hoje atuo além de desenvolvedor, como orientador dos demais desenvolvedores da equipe,
+      guiando-os da melhor forma para o desenvolvimento das atividades da Sprint.
     </p>
     <p>
-      Quando busco por um local de trabalho, procuro onde se tenha oportunidade
-      de aplicar meus conhecimentos adquiridos na minha formação, onde o foco na
-      qualiadade do produto seja o principal fator de entrega.
-      O bem estar no dia a dia, o respeito e o crescimento como profissional tem
-      que estarem unidos e correlacionados.
+      No ano de 2019 me tomei conhecimento da comunidade local de Php, Php com Rapadura, e me tornei um membro ativo
+      contribuindo com duas palestras,
+      em um Meet Up sobre Couchdb, e outra no Php Com Rapadura Conference, sobre eventos e microsserviços no Php.
+      Além de participar da maioria dos eventos nesse ano, além dos MeetUps do Darkmira Tour e da Php Com Rapadura
+      Conference na qual palestrei.
     </p>
   </div>
 </div>
